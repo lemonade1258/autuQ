@@ -1,7 +1,14 @@
 "use strict"
 const { createClient } = require("oicq")
 
-const account = 0
+const account = 1938119196
+
+// const client = createClient(account)
+
+// client.on("system.login.slider", function (e) {
+//   console.log("输入ticket：")
+//   process.stdin.once("data", ticket => this.submitSlider(String(ticket).trim()))
+// }).login("xiaohao00")
 
 const bot = createClient(account)
 
